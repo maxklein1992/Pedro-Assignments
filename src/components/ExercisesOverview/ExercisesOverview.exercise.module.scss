@@ -1,0 +1,58 @@
+@import "../../../styles/variables";
+@import "../../../styles/mediaQuery";
+@import "../../../styles/pxToRem";
+
+.exerciseOneCircle {
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.exerciseTwoText {
+  font-family: $fontFamilyBody;
+  color: white;
+  font-size: 16px;
+}
+
+.exerciseThreeText {
+  font-family: $fontFamilyBody;
+  color: white;
+  font-size: 16px;
+}
+
+.exerciseFourText {
+  font-family: $fontFamilyBody;
+  color: white;
+  font-size: 16px;
+}
+
+.exerciseSixText {
+  font-family: $fontFamilyBody;
+  color: white;
+  font-size: 16px;
+}
+
+.exerciseSevenContainer {
+  background-color: gray;
+  width: 120px;
+  height: 120px;
+}
+
+.exerciseEightText {
+  font-family: $fontFamilyBody;
+  color: white;
+  font-size: 16px;
+}
+
+.exerciseNineContainer {
+  display: flex;
+  width: 100%;
+  gap: 120px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.exerciseNineText {
+  color: white;
+}

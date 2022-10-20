@@ -1,0 +1,173 @@
+@import "../../../styles/variables";
+@import "../../../styles/mediaQuery";
+@import "../../../styles/pxToRem";
+
+.introTitle {
+  font-family: $fontFamilyBody;
+  color: $colorPrimaryWhite;
+  margin-top: pxToRem(88);
+  font-weight: normal;
+  font-size: pxToRem(22);
+}
+
+.generalInstructionsContainer {
+  padding-bottom: pxToRem(32);
+  border-bottom: 2px dotted $colorPrimaryWhite;
+}
+
+.instructionsTitleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exerciseRatingContainer {
+  margin-left: pxToRem(22);
+  margin-top: pxToRem(5);
+}
+
+.exerciseRatingGold {
+  color: $colorPrimaryGold;
+}
+
+.exerciseRatingWhite {
+  color: $colorPrimaryWhite;
+}
+
+.instructionsTitle {
+  font-family: $fontFamilyBody;
+  color: $colorPrimaryWhite;
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: pxToRem(28);
+}
+
+.instructionsSubtitle {
+  font-family: $fontFamilyBody;
+  color: $colorPrimaryGreen;
+  font-weight: bold;
+  font-size: pxToRem(22);
+}
+
+.instructions {
+  font-family: $fontFamilyBody;
+  color: $colorPrimaryWhite;
+  font-weight: normal;
+  font-size: pxToRem(16);
+  line-height: pxToRem(44);
+}
+
+.exerciseContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: pxToRem(32);
+  padding-top: pxToRem(64);
+  border-bottom: 2px dotted $colorPrimaryWhite;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.exerciseInstructionsContainer {
+  flex: 1;
+}
+
+.exerciseOutputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  padding-top: pxToRem(88);
+}
+
+.code {
+  background: #fafafa;
+  border-radius: pxToRem(5);
+  padding: pxToRem(12);
+  font-size: pxToRem(18);
+  margin-left: pxToRem(8);
+  color: $colorPrimaryBlack;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.multipleCode {
+  background: #fafafa;
+  border-radius: pxToRem(5);
+  padding: pxToRem(12);
+  font-size: pxToRem(18);
+  margin-left: pxToRem(8);
+  color: $colorPrimaryBlack;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.isRed {
+  color: $colorPrimaryRed;
+}
+
+.isBlue {
+  color: $colorPrimaryBlue;
+}
+
+.hasMediumSize {
+  font-size: pxToRem(32);
+}
+
+.hasLargeSize {
+  font-size: pxToRem(64);
+}
+
+.hasUnderline {
+  text-decoration: underline;
+}
+
+.hasLineThrough {
+  text-decoration: line-through;
+}
+
+.isYellow {
+  color: yellow;
+}
+
+.isOrange {
+  color: orange;
+}
+
+.isRed {
+  color: red;
+}
+
+.isBold {
+  font-weight: bold;
+  font-size: pxToRem(24);
+}
+
+.hasYellowBorderDiv {
+  height: pxToRem(50);
+  width: pxToRem(50);
+  background-color: blue;
+  border: pxToRem(4) solid yellow;
+  margin-left: pxToRem(62);
+}
+
+.isCorrect {
+  font-weight: bold;
+  color: green;
+}
+
+.isFalse {
+  font-weight: bold;
+  color: red;
+}
+
+.flagImage {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
